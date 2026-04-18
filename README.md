@@ -20,9 +20,8 @@ Each weight is associated with a learnable gate:
 
 The model is trained using:
 
-```text
+
 Total Loss = Classification Loss + λ × Sparsity Loss
-```
 
 * Classification Loss → CrossEntropy
 * Sparsity Loss → Mean of gate values (encourages pruning)
