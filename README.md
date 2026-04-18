@@ -11,7 +11,7 @@ This project implements a **self-pruning neural network** that dynamically remov
 Each weight is associated with a learnable gate:
 
 * Gate values are passed through a sigmoid → range (0, 1)
-* Effective weight = `weight × gate`
+* Effective weight = weight × gate
 * If gate → 0 → weight is pruned
 
 
